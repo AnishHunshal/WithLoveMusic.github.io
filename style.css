@@ -19,6 +19,10 @@ section{
 
 /* header */
 
+.lname{
+  color: #9B5ED4;
+}
+
 .header{
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -33,7 +37,7 @@ section{
   height: 6rem;
 }
 .header .navbar{
-  padding-right: 450px;
+  padding-right: 40px;
 }
 
 .header .navbar #close{
@@ -176,7 +180,7 @@ section{
 
   .header .navbar{
     position: fixed;
-    top: 0; right: -105%;
+    top: 0; right: -130%;
     width: 30rem;
     background: rgba(255,255,255,0.2);
     backdrop-filter: blur(50px);
